@@ -1,4 +1,6 @@
 package piemain;
+
+
 /*Programmer: Green Mann
 Purpose: This is a very sassy program that only knows people who are in pie. I decided to code it because I was bored! :D
 Issues: None, cuz i am epic progrmamr!
@@ -8,14 +10,14 @@ import java.util.Scanner;
 public class IamProgrammingBecauseitsFun {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
-
-        String name; //only variable needed B)
+ 
+        String name; // only variable needed B)
 
         System.out.println("Hello kid! What's your name?");
 
         name = reader.nextLine();
-        name = name.toLowerCase();
-        //makes user input name and then converts that name lower case 4 loop'n'switch
+        na me = name.toLowerCase();
+        // makes user input name and then converts that name lower case 4 loop'n'switch
 
         while (name.contains("kid")) {
             System.out.println("----------------------------------");
@@ -28,8 +30,8 @@ public class IamProgrammingBecauseitsFun {
             name = reader.nextLine();
             name = name.toLowerCase();
         }
-
-        //ayyyyyyy I didn't know you could do switch with string, sick!
+ 
+        // ayyyyyyy I didn't know you could do switch with string, sick!
         switch (name) {
             case ("max"):
                 System.out.println("Hola PENE (H burped)");
@@ -45,9 +47,11 @@ public class IamProgrammingBecauseitsFun {
             case ("green mann"):
                 System.out.println("IT'S ME");
                 break;
+                case ("anonbot"):
+                System.out.println("Wow AnonBot I didn't know you can type!!! You're so talented!!!!");
             default:
-                System.out.println("I DON'T KNOW YOU BUDDY!");
-                break;
+                System.out .println("I DON'T KNOW YOU BUDDY!");
+                break; 
         }
         reader.close(); //closed the reader
     }
