@@ -16,7 +16,7 @@ public class IamProgrammingBecauseitsFun {
         System.out.println("Hello kid! What's your name?");
 
         name = reader.nextLine();
-        na me = name.toLowerCase();
+        name = name.toLowerCase();
         // makes user input name and then converts that name lower case 4 loop'n'switch
 
         while (name.contains("kid")) {
