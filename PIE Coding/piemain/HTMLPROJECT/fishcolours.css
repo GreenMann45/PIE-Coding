@@ -1,0 +1,35 @@
+h1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Candara;
+    font-size:70;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #ffffff; 
+    text-shadow: -4px 4px #ff0000,
+                 -8px 8px #FFA500,
+                 -12px 12px #FFFF00,
+                 -16px 16px #00FF00,
+                 -20px 20px #00FFFF,
+                 -24px 24px #0000FF,
+                 -28px 28px #A020F0,
+                 -32px 32px #FF00FF,
+                 -36px 36px #FF0090;
+  }
+  body {
+    background-color: black;
+  }
+/*
+This .fish and .fishies:hover really got me interested. Could be a new html test :D 1/2/23
+*/
+     .fish {
+          width: 130px;
+          height: 195px;
+          background: url("images/card-back.jpg") no-repeat;
+          display: inline-block;
+      }
+  
+  .fishies:hover {
+          background: url("images/card-front.jpg") no-repeat;
+      }
