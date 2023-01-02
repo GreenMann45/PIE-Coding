@@ -12,7 +12,6 @@ public class UIControls {
 		left = "A";
 		down = "S";
 		right = "D";
-
 	}
 
 	public void setUp(String u) {
