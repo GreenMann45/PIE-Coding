@@ -30,6 +30,6 @@ This .fish and .fishies:hover really got me interested. Could be a new html test
           display: inline-block;
       }
   
-  .fishies:hover {
+  .fish:hover {
           background: url("images/card-front.jpg") no-repeat;
       }

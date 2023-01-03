@@ -1,10 +1,124 @@
 <html>
-    <head> 
-        <link rel="anonbotindex" href="C:/Users/annikken444/PIE-Coding/PIE Coding/piemain/HTMLPROJECT/style/anonbotindex.css">
-        <title>AnonBotPedia</title>
-    </head>
-    <body>
-        <h1>AnonBotPedia</h1> 
+<style>
+    body {
+        font-family: arial;
+        background-color: cyan;
+    }
+
+    h1,
+    h2 {
+        margin: auto;
+        text-align: center;
+        padding: 5px;
+    }
+
+    div {
+        background: magenta;
+    }
+
+    .title {
+        width: 50%;
+        height: 10%;
+        margin: auto;
+        border: 3px solid;
+        padding: 10px;
+    }
+
+    .center {
+        width: 30%;
+        height: 8%;
+        margin: auto;
+        border: 3px solid;
+        padding: 10px;
+    }
+
+    .h1title {
+        font-size: 50;
+    }
+
+   
+
+    .button {
+        /*
+         justify-content: space-between;
+        justify-content: center;
+        display: webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-between;
+        align-items: center;
+        */
+        text-align: center;
+        height: 90px;
+        width: 90%;
+        border: 1px solid black;
+        position: fixed;
+        left: 50%;
+        bottom: 20px;
+        transform: translate(-50%, 10%);
+        margin: 0 auto;
+
+    }
+
+    .myButton {
+        box-shadow: inset 0px 1px 0px 0px #2f6319;
+        background: linear-gradient(to bottom, #51ff00 5%, #ff00ff 100%);
+        background-color: #51ff00;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 37px 129px;
+        text-decoration: none;
+    }
+
+    .myButton:hover {
+        background: linear-gradient(to bottom, #ff00ff 5%, #51ff00 100%);
+        background-color: #ff00ff;
+    }
+
+    .myButton:active {
+        position: relative;
+        top: 1px;
+
+    }
+
+    .divider {
+        width: 20px;
+        height: auto;
+        display: inline-block;
+    }
+</style>
+
+<head>
+    <link rel="anonbotindex"
+        href="C:/Users/annikken444/PIE-Coding/PIE Coding/piemain/HTMLPROJECT/style/anonbotindex.css">
+    <title>AnonBotPedia</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1 class="h1title">AnonBotPedia</h1>
         <h2>For all your AnonBot needs!</h2>
-    </body>
+    </div>
+    <div class="center">
+        <!--Doomsday Clock-->
+    </div>
+
+    <div class="button">
+        <a href="#" class="myButton">facebook</a>
+        <div class="divider"></div>
+        <a href="#" class="myButton">facebook</a> 
+        <div class="divider"></div>
+        <a href="#" class="myButton">facebook</a>
+        <div class="divider"></div>
+        <a href="#" class="myButton">facebook</a>
+        <div class="divider"></div>
+        <a href="#" class="myButton">facebook</a>
+    </div>
+
+</body>
+
+
 </html>
